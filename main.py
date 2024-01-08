@@ -94,7 +94,8 @@ def search_scale_step(cfg):
                     'sun397': ([12, 10], [200, 20]),
                     'ucf101': ([7, 3], [200, 20]),
                     # numbers are kept same as from clip, tip-a results in fewsol paper settings
-                    'fewsol': ([13, 13], [200, 20])
+                    'fewsol': ([13, 13], [200, 20]),
+                    'package19': ([12, 5], [200, 20])
                     }
     search_scale, search_step = dataset_dict.get(dataset, (None, None))
     cfg['search_scale'] = search_scale

@@ -9,6 +9,7 @@ from .food101 import Food101
 from .oxford_flowers import OxfordFlowers
 from .stanford_cars import StanfordCars
 from .fewsol import FewSOL
+from.package19 import Package19
 
 
 dataset_list = {
@@ -22,7 +23,8 @@ dataset_list = {
     "food101": Food101,
     "oxford_flowers": OxfordFlowers,
     "stanford_cars": StanfordCars,
-    "fewsol": FewSOL
+    "fewsol": FewSOL,
+    "package19": Package19
 }
 
 
