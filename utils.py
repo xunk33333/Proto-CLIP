@@ -169,7 +169,9 @@ def plot_zero_shot_alpha_beta(alpha, beta, val_accuracy, test_accuracy, train_ac
     # Create a new figure and axis object
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-
+    print(alpha)
+    print(beta)
+    print(val_accuracy)
     # Plot the first curve
     ax.plot(alpha, beta, val_accuracy, label='Val')
 
