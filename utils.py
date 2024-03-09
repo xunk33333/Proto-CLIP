@@ -182,7 +182,7 @@ def plot_zero_shot_alpha_beta(alpha, beta, val_accuracy, test_accuracy, train_ac
     ax.set_xlabel('alpha')
     ax.set_ylabel('beta')
     ax.set_zlabel('zero-shot-accuracy')
-    ax.set_title(f"Proto-CLIP | Dataset:{cfg['dataset']}")
+    ax.set_title(f"Dataset:{cfg['dataset']}")
 
     # Add a legend
     ax.legend()

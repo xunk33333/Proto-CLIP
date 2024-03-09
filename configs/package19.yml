@@ -3,7 +3,7 @@ root_path: 'DATA'
 
 # ------ Basic Config ------
 shots: 16
-backbone: 'RN50'
+backbone: 'ViT-B/16'
 dataset: 'package19'
 only_test: False
 
