@@ -451,7 +451,7 @@ def run_proto_clip(cfg, visual_memory_keys, visual_memory_values, val_features, 
         test_acc = (p.max(1)[1] == test_labels).float().mean()
 
         print(
-            "**** HP-search: Proto-CLIP's test accuracy: {:.2f}% ****\n".format(test_acc*100))
+            "**** HP-search: Pg-CLIP's test accuracy: {:.2f}% ****\n".format(test_acc*100))
         print('hp_search_best_alpha', best_alpha,
               'hp_search_best_beta', best_beta)
 
